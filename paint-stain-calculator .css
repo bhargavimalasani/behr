@@ -1,0 +1,621 @@
+@media only screen and (min-width: 1080px)  {
+    .page-wrapper{
+        font-family: muli;
+        width: 1080px;
+    }
+    /*header css*/
+    .kiosk-header{
+       
+        border: 1px solid #f0f0f0;
+        padding: 10px;
+        width: 1080px;
+        margin: 0 auto;
+    }
+    .kiosk-logo img{
+        width: 150px;
+    }
+    .kiosk-header ul li {
+        float: left;
+        margin-left: 0px 8px 0px 8px;
+    
+    }
+    .kiosk-header .colorSmart{
+        float: left;
+        width: 84px;
+    }
+    .kiosk-header .header-middle-content{
+        float: left;
+    }
+    .kiosk-header ul li a{
+        color: #7B6E64;
+        padding: 0px 10px 0px 10px;
+    }
+    .kiosk-header ul li .active{
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    .kiosk-header ul li a:hover{
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 10px;
+        font-weight: bold;
+        background: none;
+    }
+    .kiosk-header .nav-languages{
+       margin: 0px 0px 5px 45px;
+    }
+    /*header css ends here*/
+    .kiosk-footer{
+        margin: 0 auto;
+        display: flex;
+        margin-top: 30px;
+    }
+    .kiosk-footer ul{
+        padding-left: 0px;
+    }
+    .kiosk-footer .marquee-btn{
+        border-color: #f2695b;
+        color: #f2695b;
+    }
+      .info-list li {
+        list-style: none;
+        display: flex;
+        margin-top: 10px;
+      }
+      .info-list li > span {
+        display: inline-block;
+        border: 2px solid #000;
+        color: #000;
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 10px;
+      }
+      .info-list li:nth-child(2) > span{
+        display: inline-block;
+        border: 2px solid #000;
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        color: #fff;
+        background: #000;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 10px;
+      }
+      .info-list li:last-child span{
+        background: linear-gradient( -4deg, black, black 49%, white 49%, white 51%, white 51% ); 
+        border-radius: 50%;
+      }
+    .toolsAndResources div{
+        margin-bottom: 10px;
+    }
+    .calc-center{
+        text-align: center;
+    }
+    .d-none{
+        display: none !important;
+    }
+    .d-block{
+        display: block !important;
+    }
+    .d-lg-block{
+        display: block !important;
+    }
+    .content_bg{
+        margin: 0 auto;
+        width: 970px;
+    }
+    .calc-size-toggle-btn button{
+        margin-right: 10px;
+    }
+    .paint-calculator .container_fluid{
+        width: 970px;
+    }
+    #paintModal .modal-content{
+        margin: 3%;
+        height: 100%;
+    }
+    #paintModal .modal-dialog{
+        width: 100%;
+    }
+    #paintModal .modal-dialog .close{
+        font-size: 43px;
+    }
+    .coverage-caluculator{
+        margin: 20px 0px 20px 0px;
+    }
+    .customexterior .form-group > label {
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        padding-right: 56px;
+    }
+    
+    .component-header h2 {
+        margin-top: 2rem;
+    }
+    
+    
+    
+    div.table-responsive small {
+        font-size:14px;
+        font-weight:700;
+    }
+    .form-custom .form-control{
+        border-radius: none !important;
+        border: 1px solid #fff;
+        width: 100px;
+        height: 52px;
+    }
+    .form-custom #squareFeet {
+        width: 208px;
+        display: inline-block;
+        height: 52px;
+    }
+    
+ 
+
+    .paint-calculator .room-criteria{
+        margin: 30x 0px 30px 0px !important;
+        border: 1px solid #ccc;
+        background: #F8F8F8;
+    }
+    .imperial-metric {
+        padding-top: 20px;
+    }
+    .paint-calculator .form-check-label {
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+    .paint-calculator .paint-results{
+        margin-top: 30px;
+    }
+ .paint-required{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .paint-calculator .share-results{
+        float:right;
+    }
+    .paint-calculator .share-results button{
+        margin-top: 10px;
+    } 
+    .coverage-heading h3 {
+        font-size: 28px;
+        font-weight: 700;
+        margin: 20px 0px 20px 0px; 
+        width: 860px;
+    }
+    .coverage-heading p{
+        font-size: 16px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pc-results th {
+        font-size: 24px;
+        background: #ebebeb;
+    }
+    .pc-results td > label {
+        font-size: 13px;
+        font-weight: 700;
+        vertical-align: middle !important;
+    }
+    
+    .gallon-value {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    .quart-value {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    
+    .pc-results tr > td > div {
+        display: flex;
+        align-items: center;
+    }
+    
+    .pc-results tr > td > div > span {
+        text-align: center;
+    }
+    .pc-results tr > td > div > span:last-of-type {
+        text-align: right;
+        flex: 1;
+    }
+    
+    .calc-toggle-btn:before {
+        /* content: "";
+        display: block;
+        position: absolute;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#858585+0,858585+100&0+0,1+100 */
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        top: -1px;
+        margin: 0 -2500px;
+        padding: 0 2500px;
+    
+        background: rgba(204,204,204,0);
+        background: -moz-linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(133,133,133,0)), color-stop(80%, rgba(133, 133, 133,0.3)), color-stop(100%, rgba(133, 133, 133,1)));
+        background: -webkit-linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        background: -o-linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        background: -ms-linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        background: linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc', GradientType=0 ); */
+    }
+    
+     .calc-toggle-btn{
+         margin: 40px 0px 40px 0px;
+     }
+    .paint-calculator .paint-options{
+        width: 870px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .calc-toggle-btn > a {  
+        color: #f2685b;
+        text-decoration: none;
+        border: 1px solid #ccc;
+        padding: 10px 37px 10px 37px;
+        margin: 0px 5px 0px 32px;
+        width: 153px;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-transform: uppercase;
+        position: relative;
+    }
+    
+    .calc-toggle-btn > a:first-child{  
+       margin-left: 0px;
+    }
+    .calc-toggle-btn #floorCoatings{  
+        margin-right: 0px !important;
+     }
+    .calc-toggle-btn > a.active {
+        color: #000;
+        background: rgba(204,204,204,0);
+        background: -moz-linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(133,133,133,0)), color-stop(80%, rgba(133, 133, 133,0.3)), color-stop(100%, rgba(133, 133, 133,1)));
+        background: -webkit-linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        background: -o-linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        background: -ms-linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        background: linear-gradient(to bottom, rgba(133,133,133,0) 0, rgba(133,133,133,0.3) 80%, rgba(133,133,133,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc', GradientType=0 ); */
+    }
+    .calc-toggle-btn > a.active:before {
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid #696969;
+        content: " ";
+        position: absolute;
+        bottom: -7px;
+        left: 44%;
+      }
+    .paint-calculator .calc-toggle-dropdown{
+        display: none;
+    }
+    
+    
+    .cal-info-shade {  
+        text-align: center;
+        padding-top: 10px;
+        width: 30%;
+        -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+        box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+        background: #fff;
+    }
+    
+    .cal-info-shade > p {
+        width: 100%;
+    }
+    
+    .cal-info-shade > p > label {
+        font-size: 32px;
+    }
+    
+    label.area-uofm {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    label.area-result {
+        font-size: 32px;
+        margin-left: 10px;
+        font-weight: 400;
+    }
+    .interiorForm, .exteriorForm, .woodStainForm, .floorCoatingsForm{
+            margin: 40px 20px 40px 20px;
+    }
+    .room-size{
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 15% 14%;
+       
+    }
+    .calc-right-text{
+        padding: 11% 5%;
+        font-size: 13px;
+    }
+    .ceiling-type{
+        font-size: 12px;
+    }
+    .user-note p{
+        font-size: 14px;
+    }
+    .cal-info-shade > p > label.area-uofm {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #custom-paint-vaulted .vaulted, #custom-paint-touchup .touchup{
+        display: inline-block;
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin-left: 20px;
+    }
+    .form-custom .area-uofm {
+        font-size: 12px;
+        margin-left: 10px;
+        font-weight: normal;
+    }
+    
+    span.length-uofm {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .cross-mark{
+        margin-left: 9px;
+    }
+    .cal-info-shade > p > label.length-uofm {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .form-custom .length-uofm {
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 100;
+    }
+    
+    .cal-info-shade > p > strong {
+        font-size: 28px;
+    }
+    
+    .calc-size-toggle-btn {
+        margin-bottom: 2.5rem;
+        margin-left: 0px;
+    }
+    .calc-forms{
+        position: relative;
+    }
+    .calc-forms .calc-area-signs {
+        font-size: 28px;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .mesurement-dimension input.form-control {
+        width: 100px;
+        min-height: 50px;
+        float: left;
+        border: 1px solid #fff;
+        border-radius: none;
+        min-height: 40px;
+    }
+    .calc-cta{
+        margin: 20px 0px 20px 0px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .woodCustom, .customfloorCoatings{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .calc-disclaimer {
+        font-size: 13px;
+        text-align: justify;
+    }
+    
+    .calc-side-gutter {
+       padding:0px 30px 0px 30px;
+       margin-top: 20px;
+    }
+    
+    .overlay-calc-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #EEEEEE;
+        opacity: 0.2;
+        -moz-opacity: 0.2;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+        filter: alpha(opacity=20);
+        z-index: 9999;
+    }
+    
+    .overlay .overlay-calc-content .form_row {
+        margin-top: 20px;
+    }
+    
+    .overlay .overlay-calc-content .textarea {
+        width:100%;
+        border-radius: 12px !important;
+        resize: none;
+        line-height: 24px;
+        font-size: 16px;
+        transition: none 0s ease 0s;
+        background: transparent !important;
+    }
+    
+    .overlay.overlay-calc-email .overlay-top {
+        height: 0px;
+        border-bottom: 0px;
+        background-color: #FFFFFF;
+    }
+    
+    .overlay.overlay-calc-email .overlay-bottom {
+        height: 0px;
+        border-top: 0px;
+        background-color: #FFFFFF;
+    }
+    
+    .overlay-calc-email .overlay-bottom button {
+        float: right;
+        margin-right: 35px;
+    }
+    
+    .overlay-calc-email .overlay-emailerror_message {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+        text-align: center;
+        margin-top: 38px;
+        color: red;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    
+    .pc-results .row {
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .pc-results-tb > tr > td {
+      vertical-align: middle !important;
+      
+    }
+   
+    .custom-touchup{
+        position: absolute;
+        left: 58px;
+        bottom: 86px;
+    }
+    .custom-touchup .form-check-inline{
+        display: inline-block;
+        width: 208px;
+    }
+    .custom-touchup label{
+        display: block;
+        padding-left: 20px;
+    }
+    .woodStainForm .cal-info-shade, .floorCoatingsForm .cal-info-shade{
+        width: 154px;
+    }
+    .woodStainForm .room-size, .floorCoatingsForm .room-size{
+        text-align: right;
+        padding: 9% 14%;
+    }
+    .woodStainForm  .calc-right-text, .floorCoatingsForm  .calc-right-text{
+        padding: 5% 5%;
+    }
+    .largewoodStain .cal-info-shade, .floorCoatingsForm .cal-info-shade{
+        width: 181px;
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+    /*caluculator css starts here*/
+    #calc {  
+        text-align: center;
+        width: 380px; 
+        display: block;
+        border-radius:8px;
+        padding:8px;
+        margin-top:20px;
+        margin-left:auto;
+        margin-right:auto;
+      
+      }
+
+      #calc-email button{
+        background-image: url('../../../../Images/Emailresult.PNG');
+        background-position: 5%;
+        background-size: 10%;
+        background-repeat: no-repeat;
+      }
+      #calc-print button{
+        background-image: url('../../../../Images/Textresult.png');
+        background-position: 5%;
+        background-size: 10%;
+        background-repeat: no-repeat;
+      }
+    /*keyboard css starts here*/
+#keyboard button{
+    border: none;
+  }
+  #keyboard .previous{
+      padding-right: 10px;
+      font-size: 20px;
+  }
+  #keyboard .next{
+    padding-left: 10px;
+    font-size: 20px;
+}
+#keyboard td img{
+    margin-top: 10px;
+}
+  #keyboard button:focus{
+      outline:0;}	
+#keyboard .table-responsive{
+    width: 300px;
+  }
+#keyboard  table tr td{
+    width: 33.3%;
+    height: 66px;
+      overflow: hidden;
+      display: inline-block;
+      white-space: nowrap;
+      background: #f8f8f8;
+  }
+  #keyboard  table tr td button{
+    background: #f8f8f8;
+  }
+  #keyboard  table tr td p{
+    text-align: center;
+  }
+  #keyboard  table tr:last-child td{
+    width: 50%;
+    height: 66px;
+      overflow: hidden;
+      display: inline-block;
+      white-space: nowrap;
+  }
+  #keyboard table tr:nth-child(4) td:first-child{ 
+        background: #ccc;
+        color: #ccc;
+    }
+    #keyboard table tr:nth-child(4) td:last-child{ 
+        background: #ccc;
+    }
+    #keyboard table tr:nth-child(4) td:last-child button{ 
+        background: #ccc;
+    }
+ .form-group input:focus{
+    outline: none; 
+    border: 1px solid #000; 
+  }
+  .form-group input:focus{
+    outline: none; 
+    border: 1px solid #000; 
+  }
+  
+/*keyboard css ends here*/
+ 
+
+    
+    
